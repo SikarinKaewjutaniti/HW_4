@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url('BG.jpg');
+}
+table, th, td{
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+  color: white;
+}
+h2 {
+  color: white;
+}
+h3 {
+  color: white;
+  font-size: 42px;
+  text-align: left;
+}
+p1{
+  color: white;
+}
+p2{
+  color: white;
+  font-size: 18px;
+  text-align: left;
+
+
+}
+div.a {
+    text-indent: 50px;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>Time Table for Computer Engineer</h2>
+
+
+<table style="width:70%">
+  <tr>
+    <th>Day</th>
+    <th>8:00</th>
+    <th>9:00</th>
+    <th>10:00</th>
+    <th>11:00</th>
+    <th>12:00</th>
+    <th>13:00</th>
+    <th>14:00</th>
+    <th>15:00</th>
+    <th>16:00</th>
+    <th>17:00</th>
+    <th>18:00</th>
+    <th>19:00</th>
+    <th>20:00</th>
+  </tr>
+  <tr>
+    <td rowspan = "2">M</td>
+    <td colspan="5" rowspan = "2"></td>
+    <td colspan="3" rowspan = "2">Numerical Methods for Computer Engineer</td>
+    <td rowspan = "2"></td>
+    <td colspan="3" rowspan = "2">Embedded System Design Labratory</td>
+<td rowspan = "2"></td>
+  </tr>
+  <tr>
+    </tr>
+  <tr>
+    <td rowspan = "2">T</td>
+    <td rowspan = "2"></td>
+      <td colspan="3" rowspan = "2">Software Devalopment Practical 2</td>
+    <td rowspan = "2" colspan = "9"></td>
+
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+      <td rowspan = "2">W</td>
+        <td rowspan = "2" colspan = "9"></td>
+          <td colspan="3" rowspan = "2">Funsdamental Nanotechnology</td>
+          <td rowspan = "2"></td>
+    </tr>
+    <tr></tr>
+    <tr>
+      <td rowspan = "2">H</td>
+      <td rowspan = "2"></td>
+      <td colspan="3" rowspan = "2">Computer network 1</td>
+      <td rowspan = "2" colspan = "4"></td>
+      <td rowspan = "2" colspan = "2">Meditation for Self Devalopment</td>
+<td rowspan = "2" colspan = "3"></td>
+    </tr>
+    <tr>
+    </tr>
+  <tr>
+    <td rowspan = "2">F</td>
+    <td rowspan = "2"></td>
+    <td colspan="3" rowspan = "2">CSoftware Devalopment Practical 2</td>
+<td rowspan = "2" colspan = "9"></td>
+  </tr>
+    </table>
+
+<h2>Responsive Image Gallery</h2>
+<h4>Resize the browser window to see the effect.</h4>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="G1.png">
+      <img src="G1.png" alt="Student with Server" width="600" height="400">
+    </a>
+    <div class="desc">Here is our Logo</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="G2.jpg">
+      <img src="G2.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">We doing some network stuff</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="G3.jpg">
+      <img src="G3.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Configuation the Server</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="G4.jpg">
+      <img src="profile.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Best student of the year (just kidding)</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  <p1>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p1>
+  <p1>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p1>
+</div>
+<h3>Subject I love </h3>
+<p2>I really love Digital Electronics and Logic Design </p2>
+<h3>Subject I like </h3>
+<p2>I really like Embedded System Design</p2>
+<h3>Subject with no comment</h3>
+<p2>I really don't like Man and Society</p2>
+<h3>Subject I really hate </h3>
+<p2>I really hate all Physical Education subjects</p2>
+<h3>Why Digital is my favorite subject</h3>
+<p2> <div class="a">   I love digital beacuse this subject is working on logic and io lobe logic<br />
+    also I love electronic, digitals subject is the subject that working with reason<br />
+    with this subject you cloud deign your own circuis and many electronics part <br />
+    this subject also teach you how to simplify circuit with logic gates. <br />
+    digital and logic design is really fascinating and really challenging <br />
+    that why I really like this subject.</div></p2>
+</body>
+</html>
